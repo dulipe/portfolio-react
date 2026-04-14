@@ -4,6 +4,7 @@ import { User } from "lucide-react";
 const skills = [
   "JavaScript",
   "React",
+  "TypeScript",
   "Node.js",
   "Tailwind",
   "HTML",
@@ -11,14 +12,13 @@ const skills = [
   "Git",
   "C#",
   "Unity",
+  "MongoDB"
 ];
 
 const learning = [
-  "TypeScript",
   "Testing (Jest / React Testing Library)",
-  "React Native",
-  "Software Architecture",
-  "Cloud (AWS / Vercel)"
+  " PostgreSQL",
+  "React Native"
 ];
 
 const About = () => {
@@ -28,41 +28,38 @@ const About = () => {
       className="flex min-h-screen border-t bg-neutral-950 px-6 py-24 text-white"
     >
       <div className="mx-auto max-w-6xl">
-      
         <SectionTitle
-          icon= {<User size={28} />}
+          icon={<User size={28} />}
           title="About"
           subtitle="A little about me, my experience, and the technologies I work with."
         />
 
         <div className="mt-12 grid gap-12 md:grid-cols-2">
-          
           <div className="space-y-4 text-neutral-400">
             <p>
-              I'm a JavaScript developer with professional experience building
-              solutions for enterprise platforms and modern web applications.
+              I'm a Full Stack Developer with 4+ years of JavaScript experience,
+              focused on building clean, well-structured web applications with
+              great user experience. My journey into tech started with a
+              transition from an accounting background, which gave me a strong
+              analytical mindset that I carry into every project I work on. I
+              spent several years at TOTVS developing automation and integration
+              solutions for enterprise platforms, where I learned how to build
+              reliable systems that solve real business problems.
             </p>
 
             <p>
-              I previously worked developing automation and custom solutions
-              for corporate systems, focusing on workflow automation and
-              improving internal business processes.
-            </p>
-
-            <p>
-              Today I focus on building modern web applications using React and
-              Node.js, with an emphasis on performance, clean code, and scalable
-              architecture.
-            </p>
-
-            <p>
-              I'm constantly improving my skills and expanding my knowledge in
-              modern technologies and best development practices.
+              Today I focus on modern full stack development using React and
+              Node.js, working on personal projects that reflect my current
+              skills. I care about writing maintainable code, thinking through
+              architecture before jumping into implementation, and continuously
+              improving through real projects. I'm currently expanding my
+              knowledge into databases, testing, and React Native, with a
+              long-term goal of working remotely with small, product-focused
+              companies where I can contribute meaningfully and keep growing.
             </p>
           </div>
 
           <div className="space-y-8">
-            
             <div>
               <h3 className="mb-4 text-lg font-semibold">Technologies</h3>
 
@@ -92,7 +89,6 @@ const About = () => {
                 ))}
               </div>
             </div>
-
           </div>
         </div>
       </div>

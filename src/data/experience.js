@@ -3,7 +3,7 @@ const experiences = [
       role: "Software Developer",
       company: "Self-Employed",
       period: "2025 — Present",
-      tech: ["React", "Node.js", "JavaScript", "Tailwind CSS"],
+      tech: ["React", "Node.js", "JavaScript", "Tailwind CSS", "TypeScript"],
       bullets: [
         "Building personal full-stack projects using React and Node.js",
         "Developing interactive web applications and experimenting with modern frontend patterns",
