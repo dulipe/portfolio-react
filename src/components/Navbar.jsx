@@ -43,7 +43,7 @@ const Navbar = () => {
     e.preventDefault();
     const section = document.getElementById(id);
     section?.scrollIntoView({ behavior: "smooth" });
-    setOpen(false); // fecha menu no mobile
+    setOpen(false);
   };
 
   return (
@@ -51,7 +51,6 @@ const Navbar = () => {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <div className="font-semibold text-lg">Filipe Santos</div>
 
-        {/* Menu desktop */}
         <ul className="hidden md:flex gap-6">
           {links.map((link) => (
             <li key={link.id}>
