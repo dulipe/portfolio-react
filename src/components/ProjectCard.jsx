@@ -4,12 +4,23 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="group rounded-xl border border-neutral-800 bg-neutral-900/30 p-6 transition-all duration-300 hover:border-neutral-700 hover:-translate-y-1 hover:shadow-lg">
       <div className="h-48 w-full object-cover transition duration-500 group-hover:scale-105">
-        <img
-          src={project.image}
-          alt={project.title}
-          className="h-48 w-full object-cover transition duration-500 group-hover:scale-105"
-          draggable={false}
-        />
+        {project.video ? (
+          <video
+            src={project.video}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-48 w-full object-cover transition duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <img
+            src={project.image}
+            alt={project.title}
+            className="h-48 w-full object-cover transition duration-500 group-hover:scale-105"
+            draggable={false}
+          />
+        )}
       </div>
 
       <h3 className="mt-3 text-xl font-semibold">{project.title}</h3>

@@ -1,46 +1,27 @@
 
-import soon from "../assets/soon.jpg";
+import secretWord from "../assets/secretword.jpg";
+import geoChallenge from "../assets/geoChallenge.mp4";
 
 const projects = [
   {
-    title: "Full stack",
+    title: "Secret Word",
     description:
-      "Meu portfólio pessoal desenvolvido com React e Tailwind.",
-    stack: ["React", "Tailwind"],
-    github: "#",
-    live: "#",
-    image: soon,
+      "A word-guessing game where you discover the secret word through color-coded letter feedback, one guess at a time.",
+    stack: ["React", "TypeScript", "Tailwind CSS", "Vitest", "Testing Library", "Context API"],
+    github: "https://github.com/dulipe/secretWord",
+    live: "https://secretword.filipe-santos.dev/",
+    image: secretWord,
   },
 
   {
-    title: "Word Game",
+    title: "Geo Challenge",
     description:
-      "Jogo de palavras desenvolvido em React inspirado em desafios de lógica. ",
-    stack: ["React", "JavaScript", "CSS"],
+      " ",
+    stack: [],
     github: "#",
     live: "#",
-    image: soon,
-  },
-  {
-    title: "Task Manager",
-    description:
-      "Aplicação para gerenciamento de tarefas com interface simples e eficiente.",
-    stack: ["React", "Node.js"],
-    github: "#",
-    live: "#",
-    image: soon,
-  },
-
-  {
-    title: "Geo chalenge",
-    description:
-      "Meu portfólio pessoal desenvolvido com React e Tailwind.",
-    stack: ["React", "Tailwind"],
-    github: "#",
-    live: "#",
-    image: soon,
-  },
-
+    video: geoChallenge,
+  }
 ];
 
 export default projects;
