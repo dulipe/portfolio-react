@@ -1,5 +1,5 @@
 
-import secretWord from "../assets/secretword.jpg";
+import secretWord from "../assets/secretWord.gif";
 import geoChallenge from "../assets/geoChallenge.mp4";
 
 const projects = [
@@ -16,11 +16,12 @@ const projects = [
   {
     title: "Geo Challenge",
     description:
-      " ",
-    stack: [],
+      "A geography interactive game where you identify countries by their flags and location on the map. Originally built for mobile in Unity, currently being ported to WebGL.",
+    stack: ["Node.js", "Express", "MongoDB", "WebGL", "Unity", "C#"],
     github: "#",
     live: "#",
     video: geoChallenge,
+    comingSoon: true,
   }
 ];
 
